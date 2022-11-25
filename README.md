@@ -12,8 +12,6 @@ type InputType = {
 
 Данный класс сожержит в себе два статических метода:
 
-// Прямое преобразование\n
 static compress(input: InputType, keys: string[]): InputType
 
-// Обратное преобразование\n
 static decompress(input: InputType, keys: string[]): InputType
